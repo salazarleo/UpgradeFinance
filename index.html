@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpgradeFinance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="imgs/logotipo.png" alt="logotipo" width="350px">
+    </header>
+
+    <section>
+        <div class=" entradas">
+            <div class="pg-entr">
+                <div> Entradas <img src="imgs/logo-entr.png" alt="logo-entrada" width="28px"> </div>
+                <div>
+                    R$
+                    <span class="entr">0.00</span>
+                </div>
+            </div>
+
+
+            <div class="pg-entr">
+                <div>Saídas <img src="imgs/logo-said.png" alt="logo-entrada" width="28px"> </div>
+                <div>
+                    R$
+                    <span class="said">0.00</span>
+                </div>
+            </div>
+
+            <div class="pg-entr">
+                <div>
+                    Total <img src="imgs/logo-total.png" alt="logo-entrada" width="28px">
+                </div>
+                <div>
+                    R$
+                    <span class="total">0.00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="test">
+        <main>
+            <div class="divDesc">
+                <label for="desc">Descrição</label>
+                <input type="text" name="" id="desc">
+            </div>
+            <div class="divValor">
+                <label for="valor">Valor</label>
+                <input type="text" name="" id="valor">
+            </div>
+
+            <div class="check-main">
+                <label for="type">Tipo</label>
+                <select id="type">
+                    <option>Entrada</option>
+                    <option>Saída</option>
+                </select>
+            </div>
+
+            <div class="btn-main">
+                <button id="btn-add">ADICIONAR</button>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-tittles">
+            <h1 class="tittle-style">Descrição</h1>
+            <h1 class="tittle-style">Valor</h1>
+            <h1 class="tittle-style">Tipo</h1>
+        </div>
+        <div>
+            <table>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

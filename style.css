@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+section {
+    padding-top: 40px;
+}
+
+.entradas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.pg-entr {
+    width: 400px;
+    height: 150px;
+    background: #8F06F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid black 3px;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+.test {
+    padding-top: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #8F06F4;
+    padding: 20px;
+    gap: 100px;
+    border-radius: 20px;
+    border: solid black 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.divDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.divValor {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+input {
+    width: 240px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    border: solid black 1px;
+}
+
+#btn-add {
+    width: 120px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    color: #8F06F4;
+    border-radius: 7px;
+    font-weight: 800;
+    border: solid black 1px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+footer {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.footer-tittles {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+}
+
+.check-main {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+#type {
+    background-color: white;
+    border: none;
+    border: solid black 1px;
+    color: #8F06F4;
+    font-weight: 700;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+
+}
+
+option {
+    font-size: 15px;
+    font-weight: 600;
+    color: #8F06F4;
+
+}
+
+.columnType {
+    padding-left: 300px;
+    padding-top: 10px;
+
+}
+
+td {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.btn-lixeira {
+    border: none;
+    background-color: transparent;
+    padding-left: 100px;
+    cursor: pointer;
+}
+
+.preço-txt {
+    padding-left: 400px;
+}
