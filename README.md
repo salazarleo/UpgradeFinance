@@ -1,5 +1,5 @@
 ## Sobre o projeto
-Esse projeto visa criar uma interface semelhante à da Netflix para uma experiência de usuário envolvente e intuitiva.
+Um gerenciador financeiro simples: Registre suas entradas e saídas, veja seus totais e mantenha controle de suas finanças pessoais.
 
 👉 Demonstração ao vivo: https://salazarleo.github.io/UpgradeFinance/
 
